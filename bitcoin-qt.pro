@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = freicoin-qt
-macx:TARGET = "Freicoin-Qt"
+TARGET = optimacoin-qt
+macx:TARGET = "Optimacoin-Qt"
 VERSION = 0.8.6.2
 INCLUDEPATH += src src/json src/qt
 QT += network

@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FRC");
-    case mBTC: return QString("mFRC");
-    case uBTC: return QString::fromUtf8("μFRC");
+    case BTC: return QString("OPM");
+    case mBTC: return QString("mOPM");
+    case uBTC: return QString::fromUtf8("μOPM");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Freicoins");
-    case mBTC: return QString("Milli-Freicoins (1 / 1,000)");
-    case uBTC: return QString("Micro-Freicoins (1 / 1,000,000)");
+    case BTC: return QString("Optimacoins");
+    case mBTC: return QString("Milli-Optimacoins (1 / 1,000)");
+    case uBTC: return QString("Micro-Optimacoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

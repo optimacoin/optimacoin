@@ -207,7 +207,7 @@ enum opcodetype
     OP_PUBKEYHASH = 0xfd,
     OP_PUBKEY = 0xfe,
 
-    OP_INVALIDOPCODE = 0xff,
+    OP_INVALIDOPMODE = 0xff,
 };
 
 const char* GetOpName(opcodetype opcode);
@@ -424,7 +424,7 @@ public:
 
     bool GetOp2(const_iterator& pc, opcodetype& opcodeRet, std::vector<unsigned char>* pvchRet) const
     {
-        opcodeRet = OP_INVALIDOPCODE;
+        opcodeRet = OP_INVALIDOPMODE;
         if (pvchRet)
             pvchRet->clear();
         if (pc >= end())

@@ -1,5 +1,5 @@
 ---
-name: "freicoind"
+name: "optimacoind"
 suites:
 - "precise"
 architectures:
@@ -32,7 +32,7 @@ script: |
   
   BOOST_VER=1_50_0
   DB_VER=4.8.30.NC
-  FREICOIN_VER=0.8.6.2
+  OPTIMACOIN_VER=0.8.6.2
   GMP_VER=5.1.2
   LIBPNG_VER=1.6.3
   MINIUPNPC_VER=1.8
@@ -72,9 +72,9 @@ script: |
   popd
   export PATH=$PREFIX/bin:$PREFIX/usr/bin:$PATH
   
-  mkdir -p "$BUILD"/src/freicoin
-  tar -C "$BUILD"/src/freicoin -xf "$GITIANDIR"/src-local.tar.xz
-  pushd "$BUILD"/src/freicoin/src
+  mkdir -p "$BUILD"/src/optimacoin
+  tar -C "$BUILD"/src/optimacoin -xf "$GITIANDIR"/src-local.tar.xz
+  pushd "$BUILD"/src/optimacoin/src
   sed 's:/opt/local:'"$PREFIX"':' -i makefile.osx
   sed 's:/db48/:/:' -i makefile.osx
   sed 's:-arch x86_64:-m64:' -i makefile.osx
@@ -87,18 +87,18 @@ script: |
     USE_QRCODE=1 \
     USE_UPNP=0 \
     DEBUGFLAGS= \
-    freicoind
-  ${TARGET}-strip freicoind
+    optimacoind
+  ${TARGET}-strip optimacoind
   find "$PREFIX" -mindepth 1 -maxdepth 1 -print0 | xargs -0 rm -rf
   popd
   
   mkdir -p "$PREFIX"/bin
-  cp -a "$BUILD"/src/freicoin/src/freicoind "$PREFIX"/bin
+  cp -a "$BUILD"/src/optimacoin/src/optimacoind "$PREFIX"/bin
   
   mkdir -p "$PREFIX"/src
   tar -C "$PREFIX"/src -xf "$GITIANDIR"/src-local.tar.xz
   
   pushd "$PREFIX"
   find * -not -type d -print0 | sort -z | xargs -0 \
-    zip -r "$OUTDIR"/freicoind-${TARGET}-${FREICOIN_VER}-gitian.zip
+    zip -r "$OUTDIR"/optimacoind-${TARGET}-${OPTIMACOIN_VER}-gitian.zip
   popd
