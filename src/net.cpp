@@ -1111,7 +1111,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "Freicoin " + FormatFullVersion();
+        string strDesc = "Optimacoin " + FormatFullVersion();
 
         try {
             loop {
@@ -1193,13 +1193,13 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"node.freico.in", "seed.freico.in"},
     {"abacus.freico.in", "fledge.freico.in"},
-    {"mainnet.freicoin.pw", "seed.mainnet.freicoin.pw"},
+    {"mainnet.optimacoin.pw", "seed.mainnet.optimacoin.pw"},
     {"seed.sicanet.net", "dnsseed.sicanet.net"},
     {NULL, NULL}
 };
 
 static const char *strTestNetDNSSeed[][2] = {
-    {"testnet.freicoin.pw", "seed.testnet.freicoin.pw"},
+    {"testnet.optimacoin.pw", "seed.testnet.optimacoin.pw"},
     {NULL, NULL}
 };
 
@@ -1756,7 +1756,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. Freicoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. Optimacoin is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

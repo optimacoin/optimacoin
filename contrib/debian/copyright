@@ -1,8 +1,8 @@
 Format: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?rev=174
-Upstream-Name: Freicoin
+Upstream-Name: Optimacoin
 Upstream-Contact: Mark Friedenbach <mark@monetize.io>
- irc://#freicoin@freenode.net
-Source: https://github.com/freicoin/freicoin
+ irc://#optimacoin@freenode.net
+Source: https://github.com/optimacoin/optimacoin
 
 Files: *
 Copyright: 2009-2012, Bitcoin Developers

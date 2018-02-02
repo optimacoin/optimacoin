@@ -64,7 +64,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Freicoin Signed Message:\n";
+const string strMessageMagic = "Optimacoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -2227,7 +2227,7 @@ bool CBlock::ConnectBlock(CValidationState &state, CBlockIndex* pindex, CCoinsVi
     bool fStrictPayToScriptHash = (pindex->nTime >= nBIP16SwitchTime);
 
     // Whether fractional inputs should be summed or ignored. Bundled as part of the
-    // BIP66 soft-fork in Freicoin.
+    // BIP66 soft-fork in Optimacoin.
     bool fTruncateInputs = false;
 
     unsigned int flags = SCRIPT_VERIFY_NOCACHE |
@@ -3449,7 +3449,7 @@ Let this be the awaited dawn.";
             << ParseHex("c26be5ec809aa4bf6b30aa89823cff7cedc3679a")
             << OP_EQUALVERIFY
             << OP_CHECKSIG;
-        const char* pszMessage4 = "Ich w\xc3\xbc""nsche Freicoin viel Erfolg zum Nutzen der 99 Prozent!";
+        const char* pszMessage4 = "Ich w\xc3\xbc""nsche Optimacoin viel Erfolg zum Nutzen der 99 Prozent!";
         txNew.vout[4].SetInitialValue(1LL);
         txNew.vout[4].scriptPubKey = CScript()
             << ParseHex("202020202020")

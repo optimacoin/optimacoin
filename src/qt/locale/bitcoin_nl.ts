@@ -6,13 +6,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Freicoin</source>
-        <translation>Over Freicoin</translation>
+        <source>About Optimacoin</source>
+        <translation>Over Optimacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Freicoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Freicoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Optimacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Optimacoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,8 +36,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Freicoin developers</source>
-        <translation>De Freicoin-ontwikkelaars</translation>
+        <source>The Optimacoin developers</source>
+        <translation>De Optimacoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -69,8 +69,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Freicoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Freicoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your Optimacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw Optimacoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -84,8 +84,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Freicoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Freicoinadres bezit</translation>
+        <source>Sign a message to prove you own a Optimacoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Optimacoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -109,8 +109,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Freicoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Freicoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified Optimacoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Optimacoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -124,8 +124,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Freicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Freicoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your Optimacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Optimacoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw bitcoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -255,12 +255,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FREICOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OPTIMACOINS&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Freicoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your freicoins from being stolen by malware infecting your computer.</source>
+        <source>Optimacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your optimacoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -376,8 +376,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Freicoin</source>
-        <translation>Laat informatie zien over Freicoin</translation>
+        <source>Show information about Optimacoin</source>
+        <translation>Laat informatie zien over Optimacoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -421,13 +421,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Freicoin address</source>
-        <translation>Verstuur munten naar een Freicoinadres</translation>
+        <source>Send coins to a Optimacoin address</source>
+        <translation>Verstuur munten naar een Optimacoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Freicoin</source>
-        <translation>Wijzig instellingen van Freicoin</translation>
+        <source>Modify configuration options for Optimacoin</source>
+        <translation>Wijzig instellingen van Optimacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -457,8 +457,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Freicoin</source>
-        <translation>Freicoin</translation>
+        <source>Optimacoin</source>
+        <translation>Optimacoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -482,8 +482,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Freicoin</source>
-        <translation>&amp;Over Freicoin</translation>
+        <source>&amp;About Optimacoin</source>
+        <translation>&amp;Over Optimacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -502,13 +502,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Freicoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Freicoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Optimacoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Optimacoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Freicoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Freicoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Optimacoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Optimacoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -538,15 +538,15 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Freicoin client</source>
-        <translation>Freicoin client</translation>
+        <source>Optimacoin client</source>
+        <translation>Optimacoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Freicoin network</source>
+        <source>%n active connection(s) to Optimacoin network</source>
         <translation>
-            <numerusform>%n actieve connectie naar Freicoinnetwerk</numerusform>
-            <numerusform>%n actieve connecties naar Freicoinnetwerk</numerusform>
+            <numerusform>%n actieve connectie naar Optimacoinnetwerk</numerusform>
+            <numerusform>%n actieve connecties naar Optimacoinnetwerk</numerusform>
         </translation>
     </message>
     <message>
@@ -621,7 +621,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Freicoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Optimacoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -670,8 +670,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Freicoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Freicoinadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Optimacoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Optimacoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -685,8 +685,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Freicoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Freicoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Optimacoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Optimacoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -751,8 +751,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Freicoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Freicoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Optimacoin address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Optimacoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -770,8 +770,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Freicoin-Qt</source>
-        <translation>Freicoin-Qt</translation>
+        <source>Optimacoin-Qt</source>
+        <translation>Optimacoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -833,13 +833,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Freicoin after logging in to the system.</source>
-        <translation>Start Freicoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Optimacoin after logging in to the system.</source>
+        <translation>Start Optimacoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Freicoin on system login</source>
-        <translation>Start &amp;Freicoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Optimacoin on system login</source>
+        <translation>Start &amp;Optimacoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -858,8 +858,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Freicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Freicoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Optimacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Optimacoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -868,8 +868,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Freicoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Freicoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Optimacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Optimacoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -943,8 +943,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Freicoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Freicoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Optimacoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Optimacoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -958,8 +958,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Freicoin addresses in the transaction list or not.</source>
-        <translation>Of Freicoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show Optimacoin addresses in the transaction list or not.</source>
+        <translation>Of Optimacoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1010,8 +1010,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Freicoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Freicoin.</translation>
+        <source>This setting will take effect after restarting Optimacoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Optimacoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1029,8 +1029,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Freicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Freicoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Optimacoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Optimacoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1083,7 +1083,7 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start freicoin: click-to-pay handler</source>
+        <source>Cannot start optimacoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1233,8 +1233,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Freicoin-Qt help message to get a list with possible Freicoin command-line options.</source>
-        <translation>Toon het FreicoinQt-hulpbericht voor een lijst met mogelijke Freicoin commandoregel-opties.</translation>
+        <source>Show the Optimacoin-Qt help message to get a list with possible Optimacoin command-line options.</source>
+        <translation>Toon het OptimacoinQt-hulpbericht voor een lijst met mogelijke Optimacoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,13 +1253,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Freicoin - Debug window</source>
-        <translation>Freicoin-debugscherm</translation>
+        <source>Optimacoin - Debug window</source>
+        <translation>Optimacoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Freicoin Core</source>
-        <translation>Freicoin Kern</translation>
+        <source>Optimacoin Core</source>
+        <translation>Optimacoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1268,8 +1268,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Freicoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Freicoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the Optimacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Optimacoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1278,8 +1278,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Freicoin RPC console.</source>
-        <translation>Welkom bij de Freicoin RPC-console.</translation>
+        <source>Welcome to the Optimacoin RPC console.</source>
+        <translation>Welkom bij de Optimacoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1333,8 +1333,8 @@ Adres: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 FRC</source>
-        <translation>123.456 FRC</translation>
+        <source>123.456 OPM</source>
+        <translation>123.456 OPM</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1462,8 +1462,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Freicoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Freicoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Optimacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Optimacoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1527,8 +1527,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Freicoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Freicoinadres bezit</translation>
+        <source>Sign the message to prove you own this Optimacoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Optimacoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,8 +1563,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Freicoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Freicoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Optimacoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Optimacoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1579,8 +1579,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Freicoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Vul een Freicoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Optimacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Optimacoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1589,8 +1589,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Freicoin signature</source>
-        <translation>Voer Freicoin-handtekening in</translation>
+        <source>Enter Optimacoin signature</source>
+        <translation>Voer Optimacoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1663,8 +1663,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Freicoin developers</source>
-        <translation>De Freicoin-ontwikkelaars</translation>
+        <source>The Optimacoin developers</source>
+        <translation>De Optimacoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2236,8 +2236,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+131"/>
-        <source>Freicoin version</source>
-        <translation>Freicoinversie</translation>
+        <source>Optimacoin version</source>
+        <translation>Optimacoinversie</translation>
     </message>
     <message>
         <location line="+66"/>
@@ -2341,8 +2341,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Freicoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Freicoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Optimacoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Optimacoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2386,8 +2386,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Freicoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Freicoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Optimacoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Optimacoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2551,7 +2551,7 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Send command to -server or freicoind</source>
+        <source>Send command to -server or optimacoind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2561,12 +2561,12 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify configuration file (default: freicoin.conf)</source>
+        <source>Specify configuration file (default: optimacoin.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: freicoind.pid)</source>
+        <source>Specify pid file (default: optimacoind.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2589,13 +2589,13 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=freicoinrpc
+rpcuser=optimacoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Optimacoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2666,8 +2666,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Freicoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Freicoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Optimacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Optimacoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2856,13 +2856,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Freicoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Freicoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Optimacoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Optimacoin</translation>
     </message>
     <message>
         <location line="+94"/>
-        <source>Wallet needed to be rewritten: restart Freicoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Freicoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Optimacoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Optimacoin om te voltooien</translation>
     </message>
     <message>
         <location line="-96"/>
@@ -2921,8 +2921,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Freicoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Freicoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Freicoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Optimacoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Optimacoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+63"/>

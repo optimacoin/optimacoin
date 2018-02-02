@@ -12,8 +12,8 @@ packages:
 reference_datetime: "2012-07-01 00:00:00"
 remotes: []
 files:
-- "Freicoin-Qt-i686-static-mingw32-0.8.6.2-gitian.zip"
-- "freicoind-i686-static-mingw32-0.8.6.2-gitian.zip"
+- "Optimacoin-Qt-i686-static-mingw32-0.8.6.2-gitian.zip"
+- "optimacoind-i686-static-mingw32-0.8.6.2-gitian.zip"
 - "src-local.tar.xz"
 script: |
   export ARCH=win32
@@ -23,7 +23,7 @@ script: |
   
   export GITIANDIR=`pwd`
   
-  FREICOIN_VER=0.8.6.2
+  OPTIMACOIN_VER=0.8.6.2
   
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export TZ=UTC
@@ -33,12 +33,12 @@ script: |
   pushd "$PREFIX"/src
 
   tar -xf "$GITIANDIR"/src-local.tar.xz
-  unzip "$GITIANDIR"/freicoind-i686-static-mingw32-${FREICOIN_VER}-gitian.zip bin/freicoind.exe
-  unzip "$GITIANDIR"/Freicoin-Qt-i686-static-mingw32-${FREICOIN_VER}-gitian.zip bin/Freicoin-Qt.exe
+  unzip "$GITIANDIR"/optimacoind-i686-static-mingw32-${OPTIMACOIN_VER}-gitian.zip bin/optimacoind.exe
+  unzip "$GITIANDIR"/Optimacoin-Qt-i686-static-mingw32-${OPTIMACOIN_VER}-gitian.zip bin/Optimacoin-Qt.exe
   mkdir -p release
-  mv bin/Freicoin-Qt.exe release/
-  mv bin/freicoind.exe src/
+  mv bin/Optimacoin-Qt.exe release/
+  mv bin/optimacoind.exe src/
   cd src
   makensis ../share/setup.nsi
-  mv ../share/freicoin-${FREICOIN_VER}-${ARCH}-setup.exe $OUTDIR/
+  mv ../share/optimacoin-${OPTIMACOIN_VER}-${ARCH}-setup.exe $OUTDIR/
   popd

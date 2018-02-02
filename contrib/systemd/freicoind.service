@@ -1,14 +1,14 @@
 [Unit]
-Description=Freicoin's distributed currency daemon
+Description=Optimacoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=freicoind
-Group=freicoind
+User=optimacoind
+Group=optimacoind
 
 Type=forking
-PIDFile=/var/lib/freicoind/freicoind.pid
-ExecStart=/usr/bin/freicoind -daemon -pid=/var/lib/freicoind/freicoind.pid -conf=/etc/freicoind.conf -datadir=/var/lib/freicoind 
+PIDFile=/var/lib/optimacoind/optimacoind.pid
+ExecStart=/usr/bin/optimacoind -daemon -pid=/var/lib/optimacoind/optimacoind.pid -conf=/etc/optimacoind.conf -datadir=/var/lib/optimacoind 
 
 Restart=always
 PrivateTmp=true

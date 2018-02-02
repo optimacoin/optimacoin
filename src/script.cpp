@@ -221,7 +221,7 @@ const char* GetOpName(opcodetype opcode)
     case OP_PUBKEYHASH             : return "OP_PUBKEYHASH";
     case OP_PUBKEY                 : return "OP_PUBKEY";
 
-    case OP_INVALIDOPCODE          : return "OP_INVALIDOPCODE";
+    case OP_INVALIDOPMODE          : return "OP_INVALIDOPMODE";
     default:
         return "OP_UNKNOWN";
     }
@@ -1775,7 +1775,7 @@ unsigned int CScript::GetSigOpCount(bool fAccurate) const
 {
     unsigned int n = 0;
     const_iterator pc = begin();
-    opcodetype lastOpcode = OP_INVALIDOPCODE;
+    opcodetype lastOpcode = OP_INVALIDOPMODE;
     while (pc < end())
     {
         opcodetype opcode;
