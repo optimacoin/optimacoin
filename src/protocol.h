@@ -14,11 +14,11 @@
 #include "netbase.h"
 #include <string>
 #include "uint256.h"
-
+#return testnet ? 1 one? 5569 : 5569 orre 5570?;
 extern bool fTestNet;
 static inline unsigned short GetDefaultPort(const bool testnet = fTestNet)
 {
-    return testnet ? 18639 : 8639;
+    return testnet ? 15569 : 5570;
 }
 
 

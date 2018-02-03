@@ -1139,7 +1139,7 @@ bool static VerifyBudget(const std::map<CTxDestination, mpq>& mapBudget,
 
 mpq static GetInitialDistributionAmount(int nHeight)
 {
-    mpq nSubsidy = 0;
+    mpq nSubsidy = 1 * COIN;
     if ( nHeight < EQ_HEIGHT )
         nSubsidy = TITHE_AMOUNT + (EQ_HEIGHT-nHeight) * INITIAL_SUBSIDY / EQ_HEIGHT;
     return nSubsidy;
@@ -1511,12 +1511,8 @@ mpq static GetBlockValue(int nHeight, const mpq& nFees)
            GetPerpetualSubsidyAmount(nHeight) + nFees;
 }
 
-static const int64 nTargetSpacing = 10 * 60;
-static const int64 nOriginalInterval = 2016;
-static const int64 nFilteredInterval =    9;
-static const int64 nOriginalTargetTimespan = nOriginalInterval * nTargetSpacing; // two weeks
-static const int64 nFilteredTargetTimespan = nFilteredInterval * nTargetSpacing; // 1.5 hrs
-
+static const int64 nTargetSpacing = 120;
+static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // FooCoin: 1 день
 //
 // minimum amount of work that could possibly be required nTime after
 // minimum work required was nBase
@@ -3390,7 +3386,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 4a5e1e
 
         // Genesis block
-        const char* pszTimestamp = "Telegraph 27/Jun/2012 Barclays hit with \xc2\xa3""290m fine over Libor fixing";
+        const char* pszTimestamp = "1517617639";
         CTransaction txNew;
         txNew.nVersion = 2;
         txNew.nRefHeight = 0;
@@ -3503,13 +3499,13 @@ Let this be the awaited dawn.";
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1356123600;
+        block.nTime    = 1517617411;
         block.nBits    = 0x1d00ffff;
         block.nNonce   =  278229610;
 
         if (fTestNet)
         {
-            block.nTime    = 1356123600;
+            block.nTime    = 1517617411;
             block.nNonce   = 3098244593;
         }
 
