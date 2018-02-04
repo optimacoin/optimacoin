@@ -1195,7 +1195,10 @@ static const char *strMainNetDNSSeed[][2] = {
     {"abacus.optimacoin.website", "fledge.optimacoin.website"},
     {"mainnet.optimacoin.pw", "seed.mainnet.optimacoin.pw"},
     {"seed.optimacoin.website", "dnsseed.optimacoin.website"},
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c2b5c4... enge src
     {NULL, NULL}
 };
 
