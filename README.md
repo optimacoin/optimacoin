@@ -1,4 +1,4 @@
-Optimacoin integration/staging tree
+<h1>Optimacoin integration/staging tree</h1>
 
 http://www.optimacoin.website
 
