@@ -1,2 +1,6 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
+<<<<<<< HEAD:contrib/debian/optimacoind.lintian-overrides
 optimacoind: possible-gpl-code-linked-with-openssl
+=======
+optimacoin-qt: possible-gpl-code-linked-with-openssl
+>>>>>>> ad31045... Chenge name:contrib/debian/freicoin-qt.lintian-overrides
