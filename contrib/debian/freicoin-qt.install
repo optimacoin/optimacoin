@@ -1,6 +1,0 @@
-optimacoin-qt usr/bin
-share/pixmaps/optimacoin32.xpm usr/share/pixmaps
-share/pixmaps/optimacoin16.xpm usr/share/pixmaps
-share/pixmaps/optimacoin128.png usr/share/pixmaps
-debian/optimacoin-qt.desktop usr/share/applications
-debian/optimacoin-qt.protocol usr/share/kde4/services/
