@@ -1192,6 +1192,7 @@ void MapPort(bool)
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
 <<<<<<< HEAD
+<<<<<<< HEAD
     {"node.optimacoin.website", "seed.optimacoin.website"},
     {"abacus.optimacoin.website", "fledge.optimacoin.website"},
     {"mainnet.optimacoin.pw", "seed.mainnet.optimacoin.pw"},
@@ -1202,6 +1203,12 @@ static const char *strMainNetDNSSeed[][2] = {
     {"mainnet.optimacoin.pw", "seed.mainnet.optimacoin.pw"},
     {"seed.sicanet.net", "dnsseed.sicanet.net"},
 >>>>>>> d8f5cdc... gbsogbndgbnsgbngbns[bgion
+=======
+    {"node.optimacoin.website", "seed.optimacoin.website"},
+    {"abacus.optimacoin.website", "fledge.optimacoin.website"},
+    {"mainnet.optimacoin.pw", "seed.mainnet.optimacoin.pw"},
+    {"seed.optimacoin.website", "dnsseed.optimacoin.website"},
+>>>>>>> 82823d8... chenge src
     {NULL, NULL}
 };
 
